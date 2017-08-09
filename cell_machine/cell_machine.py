@@ -1,7 +1,11 @@
+import sys
 import pyglet
 import random
-from api import fillLine, fillRect, fillText, strokRect
+
 from field import Field
+sys.path.append('../')
+from api import fillLine, fillRect, fillText, strokRect
+
 
 #游戏窗口类
 class Game(pyglet.window.Window):
